@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<LangVersion>Latest</LangVersion>
+		<AssemblyName>KeyLock.InMemory</AssemblyName>
+		<RootNamespace>KeyLock.InMemory</RootNamespace>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\KeyLock\KeyLock.csproj" />
+	</ItemGroup>
+
+</Project>

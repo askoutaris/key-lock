@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<LangVersion>Latest</LangVersion>
+		<AssemblyName>KeyLock.Redis</AssemblyName>
+		<RootNamespace>KeyLock.Redis</RootNamespace>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="RedLock.net" Version="2.3.2" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\KeyLock\KeyLock.csproj" />
+	</ItemGroup>
+
+</Project>

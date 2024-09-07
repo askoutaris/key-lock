@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35125.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyLock", "KeyLock\KeyLock.csproj", "{B8D0F7DE-2D0A-4526-B0D2-4EA6E61AE2C2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E8665BA4-E8C1-401A-A18A-ADD39EF0263A}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyLock.InMemory", "InMemory\KeyLock.InMemory.csproj", "{F7D01179-7A0F-4ED8-ACEA-56753010E424}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyLock.Redis", "KeyLock.Redis\KeyLock.Redis.csproj", "{8D17BC18-C9E1-4550-B1F3-ED30C45042E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyLock.MSSQL", "KeyLock.MSSQL\KeyLock.MSSQL.csproj", "{CC444935-8976-4655-B727-B16B8EDA57D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Workbench", "Workbench\Workbench.csproj", "{5B52519C-54BD-4BA9-98FD-2C1E001C167A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8D0F7DE-2D0A-4526-B0D2-4EA6E61AE2C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8D0F7DE-2D0A-4526-B0D2-4EA6E61AE2C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8D0F7DE-2D0A-4526-B0D2-4EA6E61AE2C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8D0F7DE-2D0A-4526-B0D2-4EA6E61AE2C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7D01179-7A0F-4ED8-ACEA-56753010E424}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7D01179-7A0F-4ED8-ACEA-56753010E424}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7D01179-7A0F-4ED8-ACEA-56753010E424}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7D01179-7A0F-4ED8-ACEA-56753010E424}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D17BC18-C9E1-4550-B1F3-ED30C45042E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D17BC18-C9E1-4550-B1F3-ED30C45042E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D17BC18-C9E1-4550-B1F3-ED30C45042E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D17BC18-C9E1-4550-B1F3-ED30C45042E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC444935-8976-4655-B727-B16B8EDA57D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC444935-8976-4655-B727-B16B8EDA57D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC444935-8976-4655-B727-B16B8EDA57D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC444935-8976-4655-B727-B16B8EDA57D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B52519C-54BD-4BA9-98FD-2C1E001C167A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B52519C-54BD-4BA9-98FD-2C1E001C167A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B52519C-54BD-4BA9-98FD-2C1E001C167A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B52519C-54BD-4BA9-98FD-2C1E001C167A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AF18EB27-9D29-4393-AC81-A854E28B46AA}
+	EndGlobalSection
+EndGlobal
