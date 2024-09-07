@@ -10,7 +10,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.editorconfig = .editorconfig
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyLock.InMemory", "InMemory\KeyLock.InMemory.csproj", "{F7D01179-7A0F-4ED8-ACEA-56753010E424}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyLock.InMemory", "KeyLock.InMemory\KeyLock.InMemory.csproj", "{F7D01179-7A0F-4ED8-ACEA-56753010E424}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyLock.Redis", "KeyLock.Redis\KeyLock.Redis.csproj", "{8D17BC18-C9E1-4550-B1F3-ED30C45042E4}"
 EndProject

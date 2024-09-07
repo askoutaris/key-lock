@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\InMemory\KeyLock.InMemory.csproj" />
+    <ProjectReference Include="..\KeyLock.InMemory\KeyLock.InMemory.csproj" />
     <ProjectReference Include="..\KeyLock.MSSQL\KeyLock.MSSQL.csproj" />
     <ProjectReference Include="..\KeyLock.Redis\KeyLock.Redis.csproj" />
   </ItemGroup>
